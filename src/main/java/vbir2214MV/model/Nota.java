@@ -2,11 +2,11 @@ package vbir2214MV.model;
 
 public class Nota {
 	
-	private double nrmatricol;
+	private int nrmatricol;
 	private String materie;
 	private double nota;
 	
-	public Nota(double nrmatricol, String materie, double nota) {
+	public Nota(int nrmatricol, String materie, double nota) {
 		this.setNrmatricol(nrmatricol);
 		this.setMaterie(materie);
 		this.setNota(nota);
@@ -15,14 +15,14 @@ public class Nota {
 	/**
 	 * @return the nrmatricol
 	 */
-	public double getNrmatricol() {
+	public int getNrmatricol() {
 		return nrmatricol;
 	}
 
 	/**
 	 * @param nrmatricol the nrmatricol to set
 	 */
-	private void setNrmatricol(double nrmatricol) {
+	private void setNrmatricol(int nrmatricol) {
 		this.nrmatricol = nrmatricol;
 	}
 

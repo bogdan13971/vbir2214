@@ -66,7 +66,7 @@ public class NoteRepositoryMock implements NoteRepository{
 			String line;
 			while ((line = br.readLine()) != null) {
 				String[] values = line.split(";");
-				Nota nota = new Nota(Double.parseDouble(values[0]), values[1], Double.parseDouble(values[2]));
+				Nota nota = new Nota(Integer.parseInt(values[0]), values[1], Double.parseDouble(values[2]));
 				note.add(nota);
 			}
 			br.close();
