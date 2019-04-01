@@ -6,6 +6,7 @@ import vbir2214MV.model.Medie;
 import vbir2214MV.model.Nota;
 import vbir2214MV.repository.*;
 import vbir2214MV.utils.ClasaException;
+import vbir2214MV.utils.Constants;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -29,9 +30,9 @@ public class NoteController {
 
 	public void addNota(Nota nota) throws ClasaException {
 		note.addNota(nota);
-		HashMap<String, List<Double>> materieElev = clasa.getClasa().get(new Elev((int) nota.getNrmatricol(), ""));
+		HashMap<String, List<Double>> materieElev = clasa.getClasa().get(new Elev(nota.getNrmatricol(), ""));
 		if(materieElev == null)
-			throw new ClasaException("Nr matricol incorect");
+			throw new ClasaException(Constants.invalidNrmatricol);
 		if(materieElev.containsKey(nota.getMaterie()))
 		{
 			List<Double> noteMaterie = materieElev.get(nota.getMaterie());

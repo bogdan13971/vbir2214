@@ -1,5 +1,6 @@
 package vbir2214MV.repository;
 
+import org.apache.commons.lang3.math.NumberUtils;
 import vbir2214MV.model.Nota;
 import vbir2214MV.utils.ClasaException;
 import vbir2214MV.utils.Constants;
@@ -28,7 +29,7 @@ public class NoteRepositoryMock implements NoteRepository{
 			FileOutputStream fstream = new FileOutputStream(filename, true);
 			DataOutputStream out = new DataOutputStream(fstream);
 			BufferedWriter br = new BufferedWriter(new OutputStreamWriter(out));
-			String line = (int)nota.getNrmatricol() + ";" + nota.getMaterie() + ";" + nota.getNota() +"\n";
+			String line = nota.getNrmatricol() + ";" + nota.getMaterie() + ";" + nota.getNota() +"\n";
 			br.write(line);
 			br.close();
 		} catch (IOException e) {
@@ -39,6 +40,8 @@ public class NoteRepositoryMock implements NoteRepository{
 
 	private boolean validareNota(Nota nota) throws ClasaException {
 		// TODO Auto-generated method stub
+		if(NumberUtils.isNumber(nota.getMaterie()))
+			throw new ClasaException(Constants.invalidMaterie);
 		if(nota.getMaterie().length() < 5 || nota.getMaterie().length() > 20)
 			throw new ClasaException(Constants.invalidMateria);
 		if(nota.getNrmatricol() < Constants.minNrmatricol || nota.getNrmatricol() > Constants.maxNrmatricol)
@@ -47,7 +50,7 @@ public class NoteRepositoryMock implements NoteRepository{
 			throw new ClasaException(Constants.invalidNota);
 		if(nota.getNota() != (int)nota.getNota())
 			throw new ClasaException(Constants.invalidNota);
-		if(nota.getNrmatricol() != (int)nota.getNrmatricol())
+		if(nota.getNrmatricol() != nota.getNrmatricol())
 			throw new ClasaException(Constants.invalidNrmatricol);
 		return true;
 	}
