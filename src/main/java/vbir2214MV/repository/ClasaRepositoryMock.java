@@ -113,7 +113,7 @@ public class ClasaRepositoryMock implements ClasaRepository{
 							i++;
 						}
 						double media = suma/i;
-						if (media >= 4.5)
+						if (media < 4.5)
 							corigent.setNrMaterii(corigent.getNrMaterii() + 1);
 					}
 				}

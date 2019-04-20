@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06b5880e-341e-4d11-8690-09ad083830e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/vbir2214MV/repository/NoteRepositoryMockTest.java" afterDir="false" />
+    <list default="true" id="06b5880e-341e-4d11-8690-09ad083830e9" name="Default Changelist" comment="TestLink">
+      <change afterPath="$PROJECT_DIR$/src/test/java/vbir2214MV/main/BigBangTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/vbir2214MV/main/TopDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/vbir2214MV/repository/ClasaRepositoryMockTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vbir2214MV/controller/NoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vbir2214MV/controller/NoteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vbir2214MV/repository/NoteRepositoryMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vbir2214MV/repository/NoteRepositoryMock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vbir2214MV/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vbir2214MV/utils/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/note.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/note.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/note.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/note.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/vbir2214MV/controller/NoteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vbir2214MV/controller/NoteController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/vbir2214MV/main/StartApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vbir2214MV/main/StartApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/vbir2214MV/model/Nota.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vbir2214MV/model/Nota.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vbir2214MV/repository/ClasaRepositoryMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vbir2214MV/repository/ClasaRepositoryMock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/vbir2214MV/repository/ClasaRepositoryMock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vbir2214MV/repository/ClasaRepositoryMock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/vbir2214MV/repository/NoteRepositoryMock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vbir2214MV/repository/NoteRepositoryMock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/vbir2214MV/utils/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vbir2214MV/utils/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/vbir2214MV/AddNotaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/vbir2214MV/AddNotaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/vbir2214MV/CalculeazaMediiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/vbir2214MV/CalculeazaMediiTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/vbir2214MV/GetCorigentiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/vbir2214MV/GetCorigentiTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/vbir2214MV/IntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/vbir2214MV/IntegrationTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,72 +19,95 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/vbir2214$vbir2214MV_repository_in_VVSS.ic" NAME="vbir2214MV.repository in VVSS Coverage Results" MODIFIED="1554638235067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>vbir2214MV.repository.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/vbir2214$ClasaRepositoryMockTest.ic" NAME="ClasaRepositoryMockTest Coverage Results" MODIFIED="1554640380908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>vbir2214MV.repository.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="189" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="E:\Anul 3\Sem2\SVSVSVSVSV LAB 3" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1551372305">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.35" value="1" />
-          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.38" value="2" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.77" value="1" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="csv" value="1" />
-          <entry key="java" value="790" />
-          <entry key="txt" value="37" />
-          <entry key="xml" value="67" />
+          <entry key="java" value="2436" />
+          <entry key="txt" value="57" />
+          <entry key="xml" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="790" />
-          <entry key="PLAIN_TEXT" value="38" />
-          <entry key="XML" value="67" />
+          <entry key="JAVA" value="2436" />
+          <entry key="PLAIN_TEXT" value="58" />
+          <entry key="XML" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="csv" value="4" />
-          <entry key="java" value="60" />
+          <entry key="java" value="106" />
           <entry key="plantuml" value="5" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="60" />
+          <entry key="JAVA" value="106" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="PlantUML file" value="2" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/vbir2214MV/repository/NoteRepositoryMockTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1428">
-              <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+            <state relative-caret-position="1530">
+              <caret line="143" column="5" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/vbir2214MV/repository/NoteRepositoryMock.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="53" column="66" selection-start-line="53" selection-start-column="66" selection-end-line="53" selection-end-column="66" />
+            <state relative-caret-position="420">
+              <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -104,6 +117,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
     </option>
@@ -115,10 +129,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/vbir2214MV/note/main/StartApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/vbir2214MV/repository/ClasaRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vbir2214MV/repository/ClasaRepositoryMock.java" />
         <option value="$PROJECT_DIR$/src/main/java/vbir2214MV/repository/EleviRepositoryMock.java" />
         <option value="$PROJECT_DIR$/src/main/java/vbir2214MV/repository/NoteRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/vbir2214MV/CalculeazaMediiTest.java" />
@@ -135,6 +147,12 @@
         <option value="$PROJECT_DIR$/src/main/java/vbir2214MV/utils/Constants.java" />
         <option value="$PROJECT_DIR$/src/test/java/vbir2214MV/repository/NoteRepositoryMockTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/vbir2214MV/repository/NoteRepositoryMock.java" />
+        <option value="$PROJECT_DIR$/src/test/java/vbir2214MV/repository/ClasaRepositoryMockTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/vbir2214MV/repository/ClasaRepositoryMock.java" />
+        <option value="$PROJECT_DIR$/src/test/java/vbir2214MV/repository/ClasaRepositoryMockTest2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/vbir2214MV/main/BigBangTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/vbir2214MV/main/TopDown.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -146,9 +164,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -156,6 +174,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,28 +270,37 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="vbir2214MV" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vbir2214" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VVSS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vbir2214MV" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554147416044" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555763298097" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SVSVSVSVSV LAB 3" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="vbir2214MV.main" />
       <recent name="vbir2214MV.repository" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -296,93 +324,97 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NoteRepositoryMockTest">
-    <configuration name="StartApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="vbir2214MV.main.StartApp" />
+  <component name="RunManager" selected="JUnit.TopDown">
+    <configuration name="BigBangTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VVSS" />
-      <option name="PROGRAM_PARAMETERS" value="&quot;E:\Anul 3\Sem2\VVSS\src\main\resources\elevi.csv&quot; &quot;E:\Anul 3\Sem2\VVSS\src\main\resources\note.csv&quot;" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="vbir2214MV.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="vbir2214MV.main" />
+      <option name="MAIN_CLASS_NAME" value="vbir2214MV.main.BigBangTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddNotaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BigBangTest.integration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VVSS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="vbir2214MV.*" />
+          <option name="PATTERN" value="vbir2214MV.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="vbir2214MV" />
-      <option name="MAIN_CLASS_NAME" value="vbir2214MV.AddNotaTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetCorigentiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="VVSS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="vbir2214MV.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="vbir2214MV" />
-      <option name="MAIN_CLASS_NAME" value="vbir2214MV.GetCorigentiTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NoteRepositoryMockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="VVSS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="vbir2214MV.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="vbir2214MV.repository" />
-      <option name="MAIN_CLASS_NAME" value="vbir2214MV.repository.NoteRepositoryMockTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NoteRepositoryMockTest.ec2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="VVSS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="vbir2214MV.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="vbir2214MV.repository" />
-      <option name="MAIN_CLASS_NAME" value="vbir2214MV.repository.NoteRepositoryMockTest" />
-      <option name="METHOD_NAME" value="ec2" />
+      <option name="PACKAGE_NAME" value="vbir2214MV.main" />
+      <option name="MAIN_CLASS_NAME" value="vbir2214MV.main.BigBangTest" />
+      <option name="METHOD_NAME" value="integration" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BigBangTest.testA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VVSS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vbir2214MV.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vbir2214MV.main" />
+      <option name="MAIN_CLASS_NAME" value="vbir2214MV.main.BigBangTest" />
+      <option name="METHOD_NAME" value="testA" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NoteRepositoryMockTest.ec1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VVSS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vbir2214MV.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vbir2214MV.repository" />
+      <option name="MAIN_CLASS_NAME" value="vbir2214MV.repository.NoteRepositoryMockTest" />
+      <option name="METHOD_NAME" value="ec1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VVSS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vbir2214MV.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vbir2214MV.main" />
+      <option name="MAIN_CLASS_NAME" value="vbir2214MV.main.TopDown" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.StartApp" />
-      <item itemvalue="JUnit.AddNotaTest" />
-      <item itemvalue="JUnit.GetCorigentiTest" />
-      <item itemvalue="JUnit.NoteRepositoryMockTest" />
-      <item itemvalue="JUnit.NoteRepositoryMockTest.ec2" />
+      <item itemvalue="JUnit.BigBangTest" />
+      <item itemvalue="JUnit.NoteRepositoryMockTest.ec1" />
+      <item itemvalue="JUnit.BigBangTest.testA" />
+      <item itemvalue="JUnit.BigBangTest.integration" />
+      <item itemvalue="JUnit.TopDown" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NoteRepositoryMockTest" />
-        <item itemvalue="JUnit.NoteRepositoryMockTest.ec2" />
-        <item itemvalue="Application.StartApp" />
-        <item itemvalue="JUnit.GetCorigentiTest" />
-        <item itemvalue="JUnit.AddNotaTest" />
+        <item itemvalue="JUnit.TopDown" />
+        <item itemvalue="JUnit.BigBangTest.integration" />
+        <item itemvalue="JUnit.BigBangTest" />
+        <item itemvalue="JUnit.BigBangTest.testA" />
+        <item itemvalue="JUnit.NoteRepositoryMockTest.ec1" />
       </list>
     </recent_temporary>
   </component>
@@ -425,39 +457,74 @@
       <option name="project" value="LOCAL" />
       <updated>1554113123342</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lab 2 BBT">
+      <created>1554147734271</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554147734271</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Lab 2 BBT">
+      <created>1554147991318</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554147991318</updated>
+    </task>
+    <task id="LOCAL-00007" summary="TestLink">
+      <created>1554205460687</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1554205460687</updated>
+    </task>
+    <task id="LOCAL-00008" summary="TestLink">
+      <created>1554662033004</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1554662033004</updated>
+    </task>
+    <task id="LOCAL-00009" summary="TestLink">
+      <created>1554722250170</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1554722250170</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddNotaTest - 2019.04.01 at 14h 14m 07s.xml">
-      <configuration name="AddNotaTest" configurationId="JUnit" />
+    <history-entry file="BigBangTest - 2019.04.20 at 12h 31m 03s.xml">
+      <configuration name="BigBangTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddNotaTest - 2019.04.01 at 14h 16m 52s.xml">
-      <configuration name="AddNotaTest" configurationId="JUnit" />
+    <history-entry file="BigBangTest_integration - 2019.04.20 at 12h 33m 28s.xml">
+      <configuration name="BigBangTest.integration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetCorigentiTest - 2019.04.01 at 14h 18m 29s.xml">
-      <configuration name="GetCorigentiTest" configurationId="JUnit" />
+    <history-entry file="BigBangTest_integration - 2019.04.20 at 12h 33m 46s.xml">
+      <configuration name="BigBangTest.integration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NoteRepositoryMockTest - 2019.04.01 at 21h 59m 19s.xml">
-      <configuration name="NoteRepositoryMockTest" configurationId="JUnit" />
+    <history-entry file="BigBangTest_integration - 2019.04.20 at 12h 34m 12s.xml">
+      <configuration name="BigBangTest.integration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NoteRepositoryMockTest - 2019.04.01 at 22h 16m 25s.xml">
-      <configuration name="NoteRepositoryMockTest" configurationId="JUnit" />
+    <history-entry file="BigBangTest_integration - 2019.04.20 at 12h 34m 34s.xml">
+      <configuration name="BigBangTest.integration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NoteRepositoryMockTest - 2019.04.01 at 22h 27m 24s.xml">
-      <configuration name="NoteRepositoryMockTest" configurationId="JUnit" />
+    <history-entry file="BigBangTest_integration - 2019.04.20 at 12h 34m 56s.xml">
+      <configuration name="BigBangTest.integration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NoteRepositoryMockTest - 2019.04.01 at 22h 29m 05s.xml">
-      <configuration name="NoteRepositoryMockTest" configurationId="JUnit" />
+    <history-entry file="BigBangTest_integration - 2019.04.20 at 12h 37m 05s.xml">
+      <configuration name="BigBangTest.integration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NoteRepositoryMockTest_ec2 - 2019.04.01 at 22h 29m 23s.xml">
-      <configuration name="NoteRepositoryMockTest.ec2" configurationId="JUnit" />
+    <history-entry file="BigBangTest_integration - 2019.04.20 at 12h 37m 28s.xml">
+      <configuration name="BigBangTest.integration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NoteRepositoryMockTest_ec2 - 2019.04.01 at 22h 29m 50s.xml">
-      <configuration name="NoteRepositoryMockTest.ec2" configurationId="JUnit" />
+    <history-entry file="BigBangTest_integration - 2019.04.20 at 12h 37m 36s.xml">
+      <configuration name="BigBangTest.integration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NoteRepositoryMockTest - 2019.04.01 at 22h 29m 55s.xml">
-      <configuration name="NoteRepositoryMockTest" configurationId="JUnit" />
+    <history-entry file="TopDown - 2019.04.20 at 14h 19m 24s.xml">
+      <configuration name="TopDown" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="4">
@@ -473,7 +540,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23288591" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28926176" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -482,8 +549,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8536913" visible="true" weight="0.41702127" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4986577" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8536913" weight="0.30070922" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4986577" visible="true" weight="0.39432624" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.32907802" />
@@ -500,6 +567,7 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="right" id="PlantUML" order="8" weight="0.3295302" />
+      <window_info active="true" anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.16577181" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -508,7 +576,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
     <MESSAGE value="Solved nrMatricol size" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved nrMatricol size" />
+    <MESSAGE value="Lab 2 BBT" />
+    <MESSAGE value="TestLink" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestLink" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -523,30 +593,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/vbir2214MV/App.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/vbir2214MV/utils/ClasaException.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vbir2214MV/repository/ClasaRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vbir2214MV/repository/EleviRepositoryMock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-end-line="50" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/vbir2214MV/repository/NoteRepository.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -555,24 +604,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/vbir2214MV/CalculeazaMediiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/vbir2214MV/repository/EleviRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/vbir2214MV/IntegrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -593,13 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vbir2214MV/model/Nota.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/elevi.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -617,23 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/vbir2214MV/GetCorigentiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vbir2214MV/controller/NoteController.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vbir2214MV/main/StartApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="51" column="55" lean-forward="true" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/vbir2214MV/AddNotaTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -645,31 +656,177 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vbir2214MV/repository/ClasaRepositoryMock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/vbir2214MV/utils/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1309">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="119">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vbir2214MV/utils/Constants.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/vbir2214MV/model/Medie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vbir2214MV/repository/ClasaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vbir2214MV/repository/ClasaRepositoryMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="99" column="35" lean-forward="true" selection-start-line="99" selection-start-column="35" selection-end-line="99" selection-end-column="35" />
+          <folding>
+            <element signature="e#2708#2718#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/vbir2214MV/GetCorigentiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/vbir2214MV/CalculeazaMediiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/vbir2214MV/repository/BigBang.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/vbir2214MV/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/vbir2214MV/repository/ClasaRepositoryMockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="84" column="56" lean-forward="true" selection-start-line="73" selection-start-column="8" selection-end-line="84" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/vbir2214MV/repository/ClasaRepositoryMockTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="41" column="42" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="41" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vbir2214MV/model/Nota.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vbir2214MV/controller/NoteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#1278#1279#0" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
+            <element signature="e#1978#1979#0" expanded="true" />
+            <element signature="e#2012#2013#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vbir2214MV/repository/EleviRepositoryMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/vbir2214MV/repository/NoteRepositoryMock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="53" column="66" selection-start-line="53" selection-start-column="66" selection-end-line="53" selection-end-column="66" />
+        <state relative-caret-position="177">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/vbir2214MV/IntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2023">
+          <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+          <folding>
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vbir2214MV/main/StartApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" selection-start-line="16" selection-start-column="9" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/vbir2214MV/main/BigBangTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="102" column="5" selection-start-line="67" selection-start-column="4" selection-end-line="102" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/vbir2214MV/main/TopDown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1972">
+          <caret line="118" column="20" selection-start-line="118" selection-start-column="20" selection-end-line="118" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/vbir2214MV/repository/NoteRepositoryMockTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1428">
-          <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+        <state relative-caret-position="1530">
+          <caret line="143" column="5" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
         </state>
       </provider>
     </entry>
